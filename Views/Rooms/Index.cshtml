@@ -1,0 +1,45 @@
+﻿@model IEnumerable<RoombookingApp.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+  
+}
+
+@if (ViewData["From"] != null && ViewData["To"] != null)
+{
+    <p>Pokazuje dostępne pokoje od @ViewData["From"] do @ViewData["To"]</p>
+}
+else
+{
+    <p>Lista wszystkich pokoi:</p>
+    
+}
+
+<p>
+    <a asp-action="Create">Create New</a> <a asp-controller="Reservations" asp-action="GetAvailableRooms">Filter Room</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a> |
+                <a asp-controller="Reservations" asp-action="ReserveRoom" asp-route-id="@item.Id">Reserve room</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

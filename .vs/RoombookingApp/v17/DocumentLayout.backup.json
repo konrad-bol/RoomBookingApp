@@ -1,0 +1,409 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\rooms\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\rooms\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\rooms\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\middleware\\reservationarchiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:middleware\\reservationarchiver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:controllers\\roomscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\middleware\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:middleware\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:models\\room.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\rooms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\rooms\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\rooms\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\reservations\\getmyreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\reservations\\getmyreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\reservations\\reserveroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\reservations\\reserveroom.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\reservations\\getavailablerooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\reservations\\getavailablerooms.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\reservations\\getmyarchivedreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\reservations\\getmyarchivedreservation.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\middleware\\requirelogged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:middleware\\requirelogged.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|c:\\users\\kojad\\source\\repos\\roombookingapp\\views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1EB28085-F151-4722-BE72-FEB95C2B14C9}|RoombookingApp.csproj|solutionrelative:views\\rooms\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 378,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Controllers\\AuthController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAiwCwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T13:28:15.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rooms\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Rooms\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T13:10:21.811Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rooms\\Delete.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Rooms\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:56:18.398Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ReservationArchiver.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Middleware\\ReservationArchiver.cs",
+              "RelativeDocumentMoniker": "Middleware\\ReservationArchiver.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Middleware\\ReservationArchiver.cs",
+              "RelativeToolTip": "Middleware\\ReservationArchiver.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCsAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T12:25:01.266Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rooms\\Details.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Details.cshtml",
+              "RelativeToolTip": "Views\\Rooms\\Details.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:59:37.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:57:53.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAvailableRooms.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\GetAvailableRooms.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\GetAvailableRooms.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\GetAvailableRooms.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\GetAvailableRooms.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:57:49.955Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "GetMyArchivedReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\GetMyArchivedReservation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\GetMyArchivedReservation.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\GetMyArchivedReservation.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\GetMyArchivedReservation.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:46:43.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAACRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T11:12:58.601Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Auth\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Register.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Auth\\Register.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:53:19.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Auth\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Auth\\Login.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Auth\\Login.cshtml",
+              "RelativeToolTip": "Views\\Auth\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:53:18.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:53:12.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RoomsController.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Controllers\\RoomsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RoomsController.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Controllers\\RoomsController.cs",
+              "RelativeToolTip": "Controllers\\RoomsController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA1wCEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:51:13.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Models\\User.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Models\\User.cs",
+              "RelativeToolTip": "Models\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:50:14.205Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Room.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Models\\Room.cs",
+              "RelativeDocumentMoniker": "Models\\Room.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Models\\Room.cs",
+              "RelativeToolTip": "Models\\Room.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:49:39.313Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Models\\Reservation.cs",
+              "RelativeDocumentMoniker": "Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Models\\Reservation.cs",
+              "RelativeToolTip": "Models\\Reservation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:49:37.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RequireLogged.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Middleware\\RequireLogged.cs",
+              "RelativeDocumentMoniker": "Middleware\\RequireLogged.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Middleware\\RequireLogged.cs",
+              "RelativeToolTip": "Middleware\\RequireLogged.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:47:55.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Middleware\\ReservationService.cs",
+              "RelativeDocumentMoniker": "Middleware\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Middleware\\ReservationService.cs",
+              "RelativeToolTip": "Middleware\\ReservationService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:47:47.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:47:10.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rooms\\Index.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Index.cshtml",
+              "RelativeToolTip": "Views\\Rooms\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:41:28.652Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rooms\\Create.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Rooms\\Create.cshtml",
+              "RelativeToolTip": "Views\\Rooms\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:41:26.305Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ReserveRoom.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\ReserveRoom.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\ReserveRoom.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\ReserveRoom.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\ReserveRoom.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-08T10:40:31.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "Controllers\\ReservationsController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAcwD0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T10:36:53.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GetMyReservation.cshtml",
+              "DocumentMoniker": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\GetMyReservation.cshtml",
+              "RelativeDocumentMoniker": "Views\\Reservations\\GetMyReservation.cshtml",
+              "ToolTip": "C:\\Users\\kojad\\source\\repos\\RoombookingApp\\Views\\Reservations\\GetMyReservation.cshtml",
+              "RelativeToolTip": "Views\\Reservations\\GetMyReservation.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-07T16:05:39.875Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

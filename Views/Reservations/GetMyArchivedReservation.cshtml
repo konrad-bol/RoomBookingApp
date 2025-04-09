@@ -1,0 +1,31 @@
+﻿@model IEnumerable<RoombookingApp.Models.Reservation>
+
+@{
+    ViewData["Title"] = "Index";
+
+}
+<div>
+    <a class="nav-link text-dark" asp-area="" asp-action="GetMyReservation">My Reservations</a>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Room.Name)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Room.Name)
+                    From: @Html.DisplayFor(modelItem => item.ReservationFrom)
+                    To: @Html.DisplayFor(modelItem => item.ReservationTo)
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

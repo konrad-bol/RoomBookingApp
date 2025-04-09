@@ -1,0 +1,29 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model RoombookingApp.Models.User
+@{
+    ViewData["Title"] = "Rejestracja";
+}
+
+<h2>Rejestracja</h2>
+
+<form method="post">
+    <div>
+        <label>Imię</label>
+        <input asp-for="Name" />
+    </div>
+    <div>
+        <label>Email</label>
+        <input asp-for="Email"/>
+    </div>
+    <div>
+        <label>Hasło</label>
+        <input asp-for="PasswordHash" type="password" />
+    </div>
+    <button type="submit">Zarejestruj się</button>
+</form>
+
+@* Jeśli chcesz walidację w przyszłości:
+<partial name="_ValidationScriptsPartial" />
+*@
