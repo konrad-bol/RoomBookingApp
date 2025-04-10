@@ -15,19 +15,24 @@ namespace RoombookingApp.Controllers
         {
             return View();
         }
+
+        // przejscie do formularza zeby ustalic dane widelki czasowe 
+        // gdzie chcemy sprawdzic jakie pokoje sa wolne
         [HttpGet]
         [RequireLoggedIn]
         public IActionResult GetAvailableRooms()
         {
             return View();
         }
+
+        //wyswietlenie przefiltrowanych pokoi z walidacja danych
         [HttpPost]
         [RequireLoggedIn]
         public IActionResult GetAvailableRooms(RoomAvailabilityRequest request)
         {
             if (request.From >= request.To)
             { return BadRequest("Data rozpoczęcia rezerwacji musi być wcześniejsza niż data zakończenia."); }
-
+            
             var rooms = _reservationService.GetAvailableRooms(request.From, request.To);
             ViewData["From"] = request.From;
             ViewData["To"] = request.To;

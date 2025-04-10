@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace RoombookingApp.Controllers
 {
+    //kontroler odpowiadajacy za obsluge logowania rejestracji wylogowania i ustawiania sesji
     public class AuthController : Controller
     {
         private readonly AppDbContext _context;
@@ -28,9 +29,9 @@ namespace RoombookingApp.Controllers
         {
             if(await _context.Users.AnyAsync(u => u.Email == user.Email))
                 {
-                Console.WriteLine("jest taki");
+                ViewBag.Error = "niepoprawne dane";
                 return View(); 
-            }
+                }
 
             var (hash, salt) = HashPassword(user.PasswordHash);
             user.PasswordHash = hash;

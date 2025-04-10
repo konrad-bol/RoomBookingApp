@@ -35,7 +35,7 @@ namespace RoombookingApp.Controllers
             var room = await _context.Rooms
                 .Include(r => r.Reservations)
                 .FirstOrDefaultAsync(m => m.Id == id);
-            Console.WriteLine(room.Reservations.Count);
+
             if (room == null)
             {
                 return NotFound();
