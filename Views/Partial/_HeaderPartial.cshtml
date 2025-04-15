@@ -1,0 +1,62 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<style>
+    :root {
+        font-size: 18px;
+        box-sizing: inherit;
+    }
+    .header_nav {
+        font-family: Inter;
+        border-radius: 0.5em;
+        max-width: 20em;
+        color: rgba(55, 21, 21, 0.9);
+        border: 1px solid rgba(255, 255, 255, 0.25);
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 0 1em 0.5em rgba(55, 21, 21, 0.45);
+        backdrop-filter: blur(1em);
+        overflow: hidden;
+    }
+
+    .author {
+        color: gray;
+    }
+</style>
+<header>
+    <nav class="header_nav">
+        <div class="header">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RoombookingApp</a>
+            <div class="head">
+                <ul class="button_list">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Rooms" asp-action="Index">Rooms</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="GetMyReservation">Reservation</a>
+                    </li>
+
+                    @if (Context.Session.GetInt32("user_id") != null)
+                    {
+                        <li class="nav-item">
+                            <p class="nav-link text-dark">Witaj, @Context.Session.GetString("user_name")!</p>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Logout">Wyloguj się</a>
+                        </li>
+                    }
+                    else
+                    {
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Login">Zaloguj się</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" href="/Auth/Register">Zarejestruj się</a>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>

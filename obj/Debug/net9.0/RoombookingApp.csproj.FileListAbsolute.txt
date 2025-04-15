@@ -339,3 +339,4 @@ C:\Users\kojad\source\repos\RoombookingApp\bin\Debug\net9.0\tr\Microsoft.CodeAna
 C:\Users\kojad\source\repos\RoombookingApp\bin\Debug\net9.0\zh-Hans\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\kojad\source\repos\RoombookingApp\bin\Debug\net9.0\zh-Hant\Microsoft.CodeAnalysis.Scripting.resources.dll
 C:\Users\kojad\source\repos\RoombookingApp\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\kojad\source\repos\RoombookingApp\obj\Debug\net9.0\RoombookingApp.sourcelink.json

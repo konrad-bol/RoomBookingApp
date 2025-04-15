@@ -24,6 +24,7 @@
     <button type="submit">Zarejestruj się</button>
 </form>
 
-@* Jeśli chcesz walidację w przyszłości:
-<partial name="_ValidationScriptsPartial" />
-*@
+@if (ViewBag.Error != null)
+{
+    <p style="color:red">@ViewBag.Error</p>
+}
