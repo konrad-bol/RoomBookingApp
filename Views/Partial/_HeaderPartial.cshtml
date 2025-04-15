@@ -4,59 +4,71 @@
 @{
 }
 <style>
-    :root {
-        font-size: 18px;
-        box-sizing: inherit;
-    }
-    .header_nav {
-        font-family: Inter;
-        border-radius: 0.5em;
-        max-width: 20em;
-        color: rgba(55, 21, 21, 0.9);
-        border: 1px solid rgba(255, 255, 255, 0.25);
-        background: rgba(255, 255, 255, 0.25);
-        box-shadow: 0 0 1em 0.5em rgba(55, 21, 21, 0.45);
-        backdrop-filter: blur(1em);
-        overflow: hidden;
-    }
+:root {
+    font-size: 18px;
+    box-sizing: inherit;
+}
 
-    .author {
-        color: gray;
-    }
+header {
+    font-family: font-family: "Gill Sans", sans-serif;
+    margin: 0 auto;
+    width: 98%;
+    height: 60px;
+    border-radius: 0.5em;
+    color: rgba(55, 21, 21, 0.9);
+    border: 1px solid rgba(255, 255, 255, 0.25);
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 0 0 1em 0.5em rgba(55, 21, 21, 0.45);
+    backdrop-filter: blur(1em);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    padding: 0 1rem;
+}
+
+.nav-left,
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+}
+
 </style>
 <header>
-    <nav class="header_nav">
-        <div class="header">
+    <nav class="header">
+        <div class="nav-left">
             <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">RoombookingApp</a>
-            <div class="head">
-                <ul class="button_list">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Rooms" asp-action="Index">Rooms</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="GetMyReservation">Reservation</a>
-                    </li>
-
-                    @if (Context.Session.GetInt32("user_id") != null)
-                    {
-                        <li class="nav-item">
-                            <p class="nav-link text-dark">Witaj, @Context.Session.GetString("user_name")!</p>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Auth/Logout">Wyloguj się</a>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Auth/Login">Zaloguj się</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" href="/Auth/Register">Zarejestruj się</a>
-                        </li>
-                    }
-                </ul>
-            </div>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Rooms" asp-action="Index">Rooms</a>
+            <a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="GetMyReservation">Reservation</a>
+        </div>
+        <div class="nav-right">
+            @if (Context.Session.GetInt32("user_id") != null)
+            {
+                <span class="nav-link text-dark">Hello, @Context.Session.GetString("user_name")!</span>
+                <a class="nav-link text-dark" href="/Auth/Logout">Logout</a>
+            }
+            else
+            {
+                <a class="nav-link text-dark" href="/Auth/Login">Login</a>
+                <a class="nav-link text-dark" href="/Auth/Register">Sign up</a>
+            }
         </div>
     </nav>
 </header>
